@@ -55,14 +55,14 @@ ClickShakeFailsafe := 20
 ; Color range to scan for "shake" text
 ClickShakeColorTolerance := 1
 ; Delay between each scan in miliseconds
-ClickScanDelay := 50
+ClickScanDelay := 25
 ; How many scans before clicking regardless of repeats
 RepeatBypassCounter := 10
 
 ; Seconds for navigation shake to be considered failed
 NavigationShakeFailsafe := 30
 ; Delay between each "S+Enter" in miliseconds
-NavigationSpamDelay := 5
+NavigationSpamDelay := 3
 
 ;     MINIGAME SETTINGS     ====================================================================================================;
 
@@ -86,27 +86,27 @@ SideBarRatio := 0.8
 SideBarWaitMultiplier := 4.5
 
 ; Strength for moving right in correct zone
-StableRightMultiplier := 3.0
+StableRightMultiplier := 2.5
 ; Counter strafe after moving right in correct zone
-StableRightDivision := 1.3
+StableRightDivision := 1.5
 ; Strength for moving left in correct zone
-StableLeftMultiplier := 2.8
+StableLeftMultiplier := 2.3
 ; Counter strafe after moving left in correct zone
-StableLeftDivision := 1.3
+StableLeftDivision := 1.5
 
 ; Strength for moving right when in wrong zone
-UnstableRightMultiplier := 3.5
+UnstableRightMultiplier := 3.0
 ; Counter strafe after moving right in wrong zone
-UnstableRightDivision := 1.3
+UnstableRightDivision := 1.4
 ; Strength for moving left when in wrong zone
-UnstableLeftMultiplier := 3.5
+UnstableLeftMultiplier := 3.0
 ; Counter strafe after moving left in wrong zone
 UnstableLeftDivision := 1.3
 
 ; Strength for moving right after a shift in the middle
-RightAnkleBreakMultiplier := 0.9
+RightAnkleBreakMultiplier := 0.75
 ; Strength for moving left after a shift in the middle
-LeftAnkleBreakMultiplier := 0.5
+LeftAnkleBreakMultiplier := 0.6
 
 ;====================================================================================================;
 
